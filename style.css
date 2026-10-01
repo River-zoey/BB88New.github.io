@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    width: 100%;
+    background-color: rgb(39, 39, 39);
+}
+
+body::before{
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("XG369_bg.jfif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(3px);
+    transform: translateZ(0);
+    z-index: -1;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    /* background-color: antiquewhite; */
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 39vh;
+    /* background-color: aquamarine; */
+    border-radius: 15px;
+}
+
+.image .BB88{
+    width: 280px;
+}
+
+main{
+    /* background-color: aqua; */
+    width: 90%;
+    margin: auto;
+}
+
+.play-game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    /* background-color: #272626; */
+}
+
+.play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    background-color: rgb(199, 138, 47);
+    padding: 1rem;
+    border-radius: 20px;
+    transition: background-color 0.6s, transform 0.6s;
+}
+
+.play:hover {
+    background-color: rgb(219, 217, 215);
+    transform: scale(1.2);
+}
+
+.play-game .play a {
+    text-decoration: none;
+    color: #131212;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ct{
+    margin: auto;
+    width: 100%;
+    /* background-color: aqua; */
+    text-align: center;
+    /* margin-top: 1rem; */
+    
+}
+
+.ct .click{
+    padding: 1rem;
+    color: antiquewhite;
+    text-shadow: #131212 2px 2px 2px;
+}
+
+.ct .contact{
+    padding: 0.1rem;
+    /* margin-top: 0.4rem; */
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ct .contact .Telegram {
+    margin: 0.5rem;
+    width: 300px;
+    background-color: rgb(219, 217, 215);
+    padding: 0.8rem;
+    border-radius: 20px;
+    transition: 0.7s;
+}
+
+.ct .contact .Telegram:hover{
+     margin: 1rem;
+     padding: 1rem;
+}
+
+.ct .contact .Facebook {
+    margin: 0.5rem;
+    width: 300px;
+    background-color: rgb(219, 217, 215);
+    padding: 0.8rem;
+    border-radius: 20px;
+    transition: 0.7s;
+}
+
+.ct .contact .Facebook:hover{
+     margin: 1rem;
+     padding: 1rem;
+}
+
+.ct .contact .TikTok {
+    margin: 0.5rem;
+    width: 300px;
+    background-color: rgb(219, 217, 215);
+    padding: 0.8rem;
+    border-radius: 20px;
+    transition: 0.7s;
+}
+
+.ct .contact .TikTok:hover{
+     margin: 1rem;
+     padding: 1rem;
+}
+
+.Telegram a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(56, 140, 173);
+    gap: 1rem;
+    font-size: 30px;
+}
+
+.Facebook a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(10, 100, 179);
+    gap: 1rem;
+    font-size: 30px;
+}
+
+.TikTok a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(25, 25, 26);
+    gap: 1rem;
+    font-size: 30px;
+}
